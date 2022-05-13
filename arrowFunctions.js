@@ -21,4 +21,4 @@ const addingThreeNumbers = (value1,value2, value3)=>{
     return value1+value2+value3;
 }
 
-console.log(1,2,3);
+console.log(addingThreeNumbers(1,2,3));
