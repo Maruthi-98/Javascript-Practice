@@ -1,12 +1,14 @@
+// map method in javascript
+
+
 const items = [
-    {name: "Tv", price: 12000},
-    {name: "laptop", price: 29000},
-    {name: "harddisk", price: 2500},
-    {name: 9999}
+    {name: "phone" , price : 9999},
+    {name: "laptop" , price : 29000},
+    {name: "Tv", price : 12000}
 ]
 
-const filterItems = items.filter((item)=>{
-    return item.price >= 100;
+const itemNames = items.map((item)=>{
+    return item.name;
 })
 
-console.log(filterItems);
+console.log(itemNames);
